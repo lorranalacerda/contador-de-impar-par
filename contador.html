@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+</head>
+<body>
+    <h1>Contador</h1>
+
+    <script>
+        const inicio = prompt ('digite o primeiro número da sequencia')
+        const fim = prompt('digite o último número da sequencia')
+
+    let numimpares = 0;
+    let numpares = 0;
+
+    for (let i = inicio; i <= fim; i++){
+        if(i % 2 !== 0){
+          numimpares++
+
+        } else {
+            numpares++
+        }
+    }
+      alert (`tem ${numimpares} numeros impares e ${numpares} numeros pares`)
+    </script>
+</body>
+</html>
